@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     //some visuals
     override func viewDidLoad() {
         super.viewDidLoad()
+        overrideUserInterfaceStyle = .dark
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!).withAlphaComponent(0.5)
         mainNumber.text = "Press me"
         evenLbl.text = " "
